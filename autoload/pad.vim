@@ -1,6 +1,6 @@
 " vim: set fdm=marker fdc=2 :
 
-if !has("python") && !has("python3")
+if !has("python3") && !has("python")
     finish
 endif
 

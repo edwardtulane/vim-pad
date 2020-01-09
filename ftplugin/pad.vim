@@ -10,7 +10,7 @@ setlocal conceallevel=2
 setlocal concealcursor=nc
 setlocal statusline=%#PreCondit#\ vim-pad%=%#Comment#
 setlocal statusline+=%#Special#q%#Comment#:close\ 
-if has("python") || has("python3")
+if has("python3") || has("python")
     if has("python")
         let b:python = "python"
     else

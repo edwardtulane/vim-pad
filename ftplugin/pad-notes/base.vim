@@ -3,7 +3,7 @@
 let b:pad_modified = 0
 au! BufWritePre <buffer> let b:pad_modified = eval(&modified)
 
-if has("python") || has("python3")
+if has("python3") || has("python")
     if has("python")
         let b:python = "python"
     else

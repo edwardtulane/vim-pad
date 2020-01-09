@@ -6,7 +6,7 @@
 " Version:              1.1
 
 " Must we load? {{{1
-if (exists("g:loaded_pad") && g:loaded_pad) || &cp || (!has("python") && !has("python3"))
+if (exists("g:loaded_pad") && g:loaded_pad) || &cp || (!has("python3") && !has("python"))
     finish
 endif
 let g:loaded_pad = 1 "}}}
